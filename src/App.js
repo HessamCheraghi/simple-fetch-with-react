@@ -8,7 +8,7 @@ function App() {
     <div className="App">
       <button
         onClick={() => {
-          setShowTrips(false);
+          setShowTrips((pre) => !pre);
         }}
       >
         hide trips
